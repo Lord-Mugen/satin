@@ -9,7 +9,7 @@ const Slider1_section = () => {
         <img
           src={Recurso18}
           alt="imagen numero 18 "
-          className="slider1_section__image h-auto"
+          className="slider1_section__image xl:h-3/4"
         />
       </div>
       <div className="slider1_section__section-2 text-blue">

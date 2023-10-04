@@ -1,4 +1,5 @@
 import "./App.css";
+import Bottom from "./components/bottom/Bottom";
 import Gallery from "./components/gallery/Gallery";
 import Hero from "./components/hero/Hero";
 import Slider1_section from "./containers/slider1_section/Slider1_section";
@@ -11,6 +12,7 @@ const App = () => {
       <Slider1_section />
       <Gallery />
       <Slider2_section />
+      <Bottom />
     </>
   );
 };

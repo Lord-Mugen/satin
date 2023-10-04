@@ -7,10 +7,12 @@ export default {
       colors: {
         white: "#fff",
         gray: "#919191",
-        light__gray: "#9a9a9a",
+        light__gray: "#DBDCDD",
+        blue: "#000F9F",
       },
       width: {
         55: "55%",
+        50: "50%",
         40: "40%",
         4: "1rem",
       },
@@ -19,6 +21,9 @@ export default {
         "95vh": "95vh",
         "90%": "90%",
         200: "200px",
+        420: "420px",
+        500: "500px",
+        800: "800px",
       },
       padding: {
         3: "3px",
@@ -42,10 +47,6 @@ export default {
       md: "768px",
       lg: "1024px",
       xl: "1400px",
-    },
-    colors: {
-      blue: "#000F9F",
-      white: "#fff",
     },
   },
   plugins: [],
