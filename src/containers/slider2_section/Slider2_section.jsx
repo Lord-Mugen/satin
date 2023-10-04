@@ -3,21 +3,21 @@ import Slider2 from "../../components/slider2/Slider2";
 
 const Slider2_section = () => {
   return (
-    <section className="slider2_section h-90vh lg:pt-10 lg:pb-10 lg:pl-20 lg:pr-20 ">
+    <section className="slider2_section h-95vh lg:pt-10 lg:pb-10 lg:pl-20 lg:pr-20 xl:pl-28 xl:pr-28 ">
       <div className="slider2_section lg:flex w-full justify-around h-full">
         <div className="slider2_section h-90% lg:w-1/3">
           <Slider2 />
         </div>
         <div className="slider2_section h-90% lg:w-1/3">
-          <div className="slider2_section__card bg-no-repeat bg-center h-full w-full flex flex-col items-center justify-end pb-10">
-            <button className="slider2_section__card-btn bg-blue text-white pl-4 pr-4 p-3 rounded-full font-custom font-medium">
+          <div className="slider2_section__card bg-no-repeat bg-center h-full w-full flex flex-col items-center justify-end pb-10 xl:200">
+            <button className="slider2_section__card-btn bg-blue text-white pl-4 pr-4 p-3 rounded-full font-custom font-medium hover:text-blue hover:bg-white">
               Comprar Ahora
             </button>
           </div>
         </div>
       </div>
       <div className="slider2_section__paragraph-container text-center lg:w-3/5">
-        <p className="slider2_section__paragraph font-custom">
+        <p className="slider2_section__paragraph font-custom text-1.5">
           El satín está de moda con su elegancia y sofisticación{" "}
           <span className="slider2_section__paragraph-dark font-bold">
             atemporal

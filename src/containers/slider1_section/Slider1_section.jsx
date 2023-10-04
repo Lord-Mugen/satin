@@ -14,10 +14,10 @@ const Slider1_section = () => {
       </div>
       <div className="slider1_section__section-2 text-blue">
         <Slider1 />
-        <h2 className="slider1_section__section-2-title uppercase lg:text-2.7 font-custom font-bold ">
+        <h2 className="slider1_section__section-2-title uppercase lg:text-1.8 font-custom font-bold ">
           satín azul cobalto
         </h2>
-        <span className="slider1_section__section-2-title-small lg:text-2.7 font-custom font-thin">
+        <span className="slider1_section__section-2-title-small lg:text-1.8 font-custom font-thin">
           con textura de cebra
         </span>
       </div>

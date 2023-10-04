@@ -16,8 +16,9 @@ export default {
       },
       height: {
         "70vh": "70vh",
-        "90vh": "90vh",
+        "95vh": "95vh",
         "90%": "90%",
+        200: "200px",
       },
       padding: {
         3: "3px",
@@ -27,7 +28,7 @@ export default {
         half: "50%",
       },
       fontSize: {
-        2.7: "2.7rem",
+        2.5: "2.5rem",
         1.5: "1.5rem",
         1.8: "1.8rem",
       },
@@ -40,7 +41,7 @@ export default {
       x2sm: "425px",
       md: "768px",
       lg: "1024px",
-      xl: "1440px",
+      xl: "1400px",
     },
     colors: {
       blue: "#000F9F",
