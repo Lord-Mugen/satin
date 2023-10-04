@@ -1,3 +1,4 @@
+import "./slider1_section.css";
 import Slider1 from "../../components/slider1/Slider1";
 import Recurso18 from "../../assets/images/Recurso18.jpg";
 
@@ -13,10 +14,10 @@ const Slider1_section = () => {
       </div>
       <div className="slider1_section__section-2 text-blue">
         <Slider1 />
-        <h2 className="slider1_section__section-2-title uppercase text-xl font-bold leading-none">
+        <h2 className="slider1_section__section-2-title uppercase lg:text-2.7 font-custom font-bold ">
           satín azul cobalto
         </h2>
-        <span className="slider1_section__section-2-title-small text-lg">
+        <span className="slider1_section__section-2-title-small lg:text-2.7 font-custom font-thin">
           con textura de cebra
         </span>
       </div>
