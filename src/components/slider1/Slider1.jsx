@@ -20,14 +20,14 @@ const Slider1 = () => {
         <img
           src={recurso27}
           alt="Slide 1"
-          className="card__img h-300 xl:h-full w-full"
+          className="card__img h-300 xl:h-full w-full object-contain"
         />
       </div>
       <div className="card w-full lg:h-600 xl:h-700">
         <img
           src={recurso28}
           alt="Slide 2"
-          className="card__img h-300 xl:h-full w-full"
+          className="card__img h-300 xl:h-full w-full object-contain"
         />
       </div>
     </Slider>
